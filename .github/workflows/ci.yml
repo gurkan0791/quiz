@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check executable
-        run: chmod +x hello.sh
+        run: chmod +x ../hello.sh
 
       - name: run script
-        run: ./hello.sh
+        run: ./../hello.sh
