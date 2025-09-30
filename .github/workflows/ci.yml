@@ -11,9 +11,9 @@ jobs:
     steps:
       - name: Get Your Code
         uses: actions/checkout@v2
-        
+
       - name: Check executable
-        run: chmod +x ../../hello.sh
+        run: chmod +x hello.sh
 
       - name: run script
-        run: ./../../hello.sh
+        run: ./hello.sh
